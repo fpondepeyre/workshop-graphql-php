@@ -138,9 +138,9 @@ class Apartment
     /**
      * @param string $country
      *
-     * @return $this
+     * @return Apartment
      */
-    public function setCountry(string $country)
+    public function setCountry(string $country): self
     {
         $this->country = $country;
 
@@ -178,9 +178,9 @@ class Apartment
     /**
      * @param int $size
      *
-     * @return $this
+     * @return Apartment
      */
-    public function setSize(int $size)
+    public function setSize(int $size): self
     {
         $this->size = $size;
 
