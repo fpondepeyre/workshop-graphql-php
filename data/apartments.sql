@@ -1,5 +1,3 @@
-SET sql_mode='NO_BACKSLASH_ESCAPES';
-CREATE TABLE apartment (id INTEGER NOT NULL, streetaddress VARCHAR(255) NOT NULL, city VARCHAR(255) NOT NULL, zipcode VARCHAR(255) NOT NULL, country VARCHAR(255) NOT NULL, buildyear INTEGER NOT NULL, size INTEGER NOT NULL, PRIMARY KEY(id));
 INSERT INTO `apartment` VALUES(1,'9965 Kulas Green','Port Arvilla','09978','Libyan Arab Jamahiriya',1977,68);
 INSERT INTO `apartment` VALUES(2,'99892 Kemmer Station Suite 134','Jaskolskiview','98395-3141','Fiji',1977,68);
 INSERT INTO `apartment` VALUES(3,'96447 Jada Inlet Apt. 020','Floland','05959','McDonald Islands',1977,68);
